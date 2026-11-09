@@ -1,0 +1,602 @@
+[
+  {
+    "en": "hello",
+    "nl": "hallo",
+    "ru": "привет",
+    "level": "A1"
+  },
+  {
+    "en": "goodbye",
+    "nl": "tot ziens",
+    "ru": "до свидания",
+    "level": "A1"
+  },
+  {
+    "en": "please",
+    "nl": "alsjeblieft",
+    "ru": "пожалуйста",
+    "level": "A1"
+  },
+  {
+    "en": "thank you",
+    "nl": "dank je",
+    "ru": "спасибо",
+    "level": "A1"
+  },
+  {
+    "en": "yes",
+    "nl": "ja",
+    "ru": "да",
+    "level": "A1"
+  },
+  {
+    "en": "no",
+    "nl": "nee",
+    "ru": "нет",
+    "level": "A1"
+  },
+  {
+    "en": "sorry",
+    "nl": "sorry",
+    "ru": "извини",
+    "level": "A1"
+  },
+  {
+    "en": "excuse me",
+    "nl": "pardon",
+    "ru": "простите",
+    "level": "A1"
+  },
+  {
+    "en": "good",
+    "nl": "goed",
+    "ru": "хороший",
+    "level": "A1"
+  },
+  {
+    "en": "bad",
+    "nl": "slecht",
+    "ru": "плохой",
+    "level": "A1"
+  },
+  {
+    "en": "I",
+    "nl": "ik",
+    "ru": "я",
+    "level": "A1"
+  },
+  {
+    "en": "you",
+    "nl": "jij",
+    "ru": "ты",
+    "level": "A1"
+  },
+  {
+    "en": "he",
+    "nl": "hij",
+    "ru": "он",
+    "level": "A1"
+  },
+  {
+    "en": "she",
+    "nl": "zij",
+    "ru": "она",
+    "level": "A1"
+  },
+  {
+    "en": "we",
+    "nl": "wij",
+    "ru": "мы",
+    "level": "A1"
+  },
+  {
+    "en": "they",
+    "nl": "zij",
+    "ru": "они",
+    "level": "A1"
+  },
+  {
+    "en": "friend",
+    "nl": "vriend",
+    "ru": "друг",
+    "level": "A1"
+  },
+  {
+    "en": "family",
+    "nl": "familie",
+    "ru": "семья",
+    "level": "A1"
+  },
+  {
+    "en": "man",
+    "nl": "man",
+    "ru": "мужчина",
+    "level": "A1"
+  },
+  {
+    "en": "woman",
+    "nl": "vrouw",
+    "ru": "женщина",
+    "level": "A1"
+  },
+  {
+    "en": "house",
+    "nl": "huis",
+    "ru": "дом",
+    "level": "A1"
+  },
+  {
+    "en": "room",
+    "nl": "kamer",
+    "ru": "комната",
+    "level": "A1"
+  },
+  {
+    "en": "door",
+    "nl": "deur",
+    "ru": "дверь",
+    "level": "A1"
+  },
+  {
+    "en": "window",
+    "nl": "raam",
+    "ru": "окно",
+    "level": "A1"
+  },
+  {
+    "en": "table",
+    "nl": "tafel",
+    "ru": "стол",
+    "level": "A1"
+  },
+  {
+    "en": "chair",
+    "nl": "stoel",
+    "ru": "стул",
+    "level": "A1"
+  },
+  {
+    "en": "bed",
+    "nl": "bed",
+    "ru": "кровать",
+    "level": "A1"
+  },
+  {
+    "en": "kitchen",
+    "nl": "keuken",
+    "ru": "кухня",
+    "level": "A1"
+  },
+  {
+    "en": "bathroom",
+    "nl": "badkamer",
+    "ru": "ванная",
+    "level": "A1"
+  },
+  {
+    "en": "key",
+    "nl": "sleutel",
+    "ru": "ключ",
+    "level": "A1"
+  },
+  {
+    "en": "water",
+    "nl": "water",
+    "ru": "вода",
+    "level": "A1"
+  },
+  {
+    "en": "bread",
+    "nl": "brood",
+    "ru": "хлеб",
+    "level": "A1"
+  },
+  {
+    "en": "milk",
+    "nl": "melk",
+    "ru": "молоко",
+    "level": "A1"
+  },
+  {
+    "en": "coffee",
+    "nl": "koffie",
+    "ru": "кофе",
+    "level": "A1"
+  },
+  {
+    "en": "tea",
+    "nl": "thee",
+    "ru": "чай",
+    "level": "A1"
+  },
+  {
+    "en": "apple",
+    "nl": "appel",
+    "ru": "яблоко",
+    "level": "A1"
+  },
+  {
+    "en": "cheese",
+    "nl": "kaas",
+    "ru": "сыр",
+    "level": "A1"
+  },
+  {
+    "en": "egg",
+    "nl": "ei",
+    "ru": "яйцо",
+    "level": "A1"
+  },
+  {
+    "en": "meat",
+    "nl": "vlees",
+    "ru": "мясо",
+    "level": "A1"
+  },
+  {
+    "en": "vegetable",
+    "nl": "groente",
+    "ru": "овощ",
+    "level": "A1"
+  },
+  {
+    "en": "eat",
+    "nl": "eten",
+    "ru": "есть",
+    "level": "A1"
+  },
+  {
+    "en": "drink",
+    "nl": "drinken",
+    "ru": "пить",
+    "level": "A1"
+  },
+  {
+    "en": "go",
+    "nl": "gaan",
+    "ru": "идти",
+    "level": "A1"
+  },
+  {
+    "en": "come",
+    "nl": "komen",
+    "ru": "приходить",
+    "level": "A1"
+  },
+  {
+    "en": "work",
+    "nl": "werken",
+    "ru": "работать",
+    "level": "A1"
+  },
+  {
+    "en": "learn",
+    "nl": "leren",
+    "ru": "учить",
+    "level": "A1"
+  },
+  {
+    "en": "speak",
+    "nl": "spreken",
+    "ru": "говорить",
+    "level": "A1"
+  },
+  {
+    "en": "understand",
+    "nl": "begrijpen",
+    "ru": "понимать",
+    "level": "A1"
+  },
+  {
+    "en": "want",
+    "nl": "willen",
+    "ru": "хотеть",
+    "level": "A1"
+  },
+  {
+    "en": "need",
+    "nl": "nodig hebben",
+    "ru": "нуждаться",
+    "level": "A1"
+  },
+  {
+    "en": "today",
+    "nl": "vandaag",
+    "ru": "сегодня",
+    "level": "A1"
+  },
+  {
+    "en": "tomorrow",
+    "nl": "morgen",
+    "ru": "завтра",
+    "level": "A1"
+  },
+  {
+    "en": "yesterday",
+    "nl": "gisteren",
+    "ru": "вчера",
+    "level": "A1"
+  },
+  {
+    "en": "now",
+    "nl": "nu",
+    "ru": "сейчас",
+    "level": "A1"
+  },
+  {
+    "en": "later",
+    "nl": "later",
+    "ru": "позже",
+    "level": "A1"
+  },
+  {
+    "en": "morning",
+    "nl": "ochtend",
+    "ru": "утро",
+    "level": "A1"
+  },
+  {
+    "en": "evening",
+    "nl": "avond",
+    "ru": "вечер",
+    "level": "A1"
+  },
+  {
+    "en": "week",
+    "nl": "week",
+    "ru": "неделя",
+    "level": "A1"
+  },
+  {
+    "en": "month",
+    "nl": "maand",
+    "ru": "месяц",
+    "level": "A1"
+  },
+  {
+    "en": "year",
+    "nl": "jaar",
+    "ru": "год",
+    "level": "A1"
+  },
+  {
+    "en": "street",
+    "nl": "straat",
+    "ru": "улица",
+    "level": "A1"
+  },
+  {
+    "en": "train",
+    "nl": "trein",
+    "ru": "поезд",
+    "level": "A1"
+  },
+  {
+    "en": "bus",
+    "nl": "bus",
+    "ru": "автобус",
+    "level": "A1"
+  },
+  {
+    "en": "station",
+    "nl": "station",
+    "ru": "станция",
+    "level": "A1"
+  },
+  {
+    "en": "ticket",
+    "nl": "kaartje",
+    "ru": "билет",
+    "level": "A1"
+  },
+  {
+    "en": "bicycle",
+    "nl": "fiets",
+    "ru": "велосипед",
+    "level": "A1"
+  },
+  {
+    "en": "car",
+    "nl": "auto",
+    "ru": "машина",
+    "level": "A1"
+  },
+  {
+    "en": "left",
+    "nl": "links",
+    "ru": "налево",
+    "level": "A1"
+  },
+  {
+    "en": "right",
+    "nl": "rechts",
+    "ru": "направо",
+    "level": "A1"
+  },
+  {
+    "en": "where",
+    "nl": "waar",
+    "ru": "где",
+    "level": "A1"
+  },
+  {
+    "en": "shop",
+    "nl": "winkel",
+    "ru": "магазин",
+    "level": "A1"
+  },
+  {
+    "en": "price",
+    "nl": "prijs",
+    "ru": "цена",
+    "level": "A1"
+  },
+  {
+    "en": "money",
+    "nl": "geld",
+    "ru": "деньги",
+    "level": "A1"
+  },
+  {
+    "en": "cheap",
+    "nl": "goedkoop",
+    "ru": "дешёвый",
+    "level": "A1"
+  },
+  {
+    "en": "expensive",
+    "nl": "duur",
+    "ru": "дорогой",
+    "level": "A1"
+  },
+  {
+    "en": "buy",
+    "nl": "kopen",
+    "ru": "покупать",
+    "level": "A1"
+  },
+  {
+    "en": "pay",
+    "nl": "betalen",
+    "ru": "платить",
+    "level": "A1"
+  },
+  {
+    "en": "open",
+    "nl": "open",
+    "ru": "открытый",
+    "level": "A1"
+  },
+  {
+    "en": "closed",
+    "nl": "gesloten",
+    "ru": "закрытый",
+    "level": "A1"
+  },
+  {
+    "en": "receipt",
+    "nl": "bon",
+    "ru": "чек",
+    "level": "A1"
+  },
+  {
+    "en": "big",
+    "nl": "groot",
+    "ru": "большой",
+    "level": "A1"
+  },
+  {
+    "en": "small",
+    "nl": "klein",
+    "ru": "маленький",
+    "level": "A1"
+  },
+  {
+    "en": "new",
+    "nl": "nieuw",
+    "ru": "новый",
+    "level": "A1"
+  },
+  {
+    "en": "old",
+    "nl": "oud",
+    "ru": "старый",
+    "level": "A1"
+  },
+  {
+    "en": "beautiful",
+    "nl": "mooi",
+    "ru": "красивый",
+    "level": "A1"
+  },
+  {
+    "en": "easy",
+    "nl": "makkelijk",
+    "ru": "лёгкий",
+    "level": "A1"
+  },
+  {
+    "en": "difficult",
+    "nl": "moeilijk",
+    "ru": "трудный",
+    "level": "A1"
+  },
+  {
+    "en": "fast",
+    "nl": "snel",
+    "ru": "быстрый",
+    "level": "A1"
+  },
+  {
+    "en": "slow",
+    "nl": "langzaam",
+    "ru": "медленный",
+    "level": "A1"
+  },
+  {
+    "en": "tired",
+    "nl": "moe",
+    "ru": "уставший",
+    "level": "A1"
+  },
+  {
+    "en": "school",
+    "nl": "school",
+    "ru": "школа",
+    "level": "A1"
+  },
+  {
+    "en": "teacher",
+    "nl": "leraar",
+    "ru": "учитель",
+    "level": "A1"
+  },
+  {
+    "en": "student",
+    "nl": "student",
+    "ru": "студент",
+    "level": "A1"
+  },
+  {
+    "en": "book",
+    "nl": "boek",
+    "ru": "книга",
+    "level": "A1"
+  },
+  {
+    "en": "word",
+    "nl": "woord",
+    "ru": "слово",
+    "level": "A1"
+  },
+  {
+    "en": "question",
+    "nl": "vraag",
+    "ru": "вопрос",
+    "level": "A1"
+  },
+  {
+    "en": "answer",
+    "nl": "antwoord",
+    "ru": "ответ",
+    "level": "A1"
+  },
+  {
+    "en": "write",
+    "nl": "schrijven",
+    "ru": "писать",
+    "level": "A1"
+  },
+  {
+    "en": "read",
+    "nl": "lezen",
+    "ru": "читать",
+    "level": "A1"
+  },
+  {
+    "en": "listen",
+    "nl": "luisteren",
+    "ru": "слушать",
+    "level": "A1"
+  }
+]

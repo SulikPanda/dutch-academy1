@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f2">
+  <title>Dutch Academy — учи нидерландский</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Dutch Academy">
+        <span class="brand-mark">D</span><span>Dutch<span class="brand-light">Academy</span></span>
+      </a>
+      <div class="level-card">
+        <span class="eyebrow">ТВОЙ КУРС</span>
+        <strong>Нидерландский</strong>
+        <span class="level-pill">A1 · Начальный</span>
+      </div>
+      <nav class="nav" aria-label="Главное меню">
+        <button class="nav-item active" data-view="home"><span>⌂</span> Обучение</button>
+        <button class="nav-item" data-view="vocabulary"><span>▤</span> Словарь</button>
+        <button class="nav-item" data-view="practice"><span>✳</span> Практика</button>
+        <button class="nav-item" data-view="progress"><span>◷</span> Мой прогресс</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="mini-note">Маленький шаг каждый день — большой результат со временем.</div>
+        <span class="sidebar-foot">Твоя языковая привычка начинается здесь.</span>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="brand-mark">D</span> Dutch Academy</div>
+        <div class="topbar-right">
+          <label class="language-switch">Язык объяснений
+            <select id="explainLanguage" aria-label="Язык объяснений">
+              <option value="ru">Русский</option>
+              <option value="en">English</option>
+            </select>
+          </label>
+          <div class="streak"><span>✦</span> <b id="streakValue">0</b> дней</div>
+        </div>
+      </header>
+
+      <section id="homeView" class="view">
+        <div class="welcome-row">
+          <div>
+            <p class="eyebrow">ТВОЙ ПУТЬ К СВОБОДНОЙ РЕЧИ</p>
+            <h1>Goed bezig! <span class="wave">✦</span></h1>
+            <p class="muted">Начни с одного короткого урока. Регулярность важнее скорости.</p>
+          </div>
+          <div class="daily-goal">
+            <span class="eyebrow">ЦЕЛЬ НА СЕГОДНЯ</span>
+            <strong><span id="todayPoints">0</span> / 20 XP</strong>
+            <div class="progress-track"><i id="goalBar"></i></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-copy">
+            <span class="hero-tag">ТВОЙ КУРС · A1</span>
+            <h2>Первые шаги<br>по-нидерландски</h2>
+            <p>Познакомься, поздоровайся и научись говорить простые фразы.</p>
+            <button class="button button-light" id="startLesson">Продолжить урок <span>→</span></button>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-circle"></div><div class="art-card">hallo<span>привет</span></div>
+            <div class="art-spark">✳</div><div class="art-dot"></div>
+          </div>
+        </div>
+
+        <div class="section-heading"><div><p class="eyebrow">ПРОГРАММА</p><h2>Твой учебный маршрут</h2></div><span class="muted small">Уровень A1</span></div>
+        <div class="course-grid">
+          <article class="course-card current">
+            <div class="course-icon mint">01</div><div class="course-info"><span class="card-kicker">РАЗДЕЛ 1</span><h3>Знакомство</h3><p>Приветствия, имя, простые фразы</p><div class="card-progress"><i style="width:0%"></i></div></div><span class="card-arrow">→</span>
+          </article>
+          <article class="course-card locked"><div class="course-icon peach">02</div><div class="course-info"><span class="card-kicker">РАЗДЕЛ 2</span><h3>Обо мне</h3><p>Люди, страны и профессии</p><span class="lock-label">Откроется позже</span></div><span class="card-arrow">⌑</span></article>
+          <article class="course-card locked"><div class="course-icon lilac">03</div><div class="course-info"><span class="card-kicker">РАЗДЕЛ 3</span><h3>Мой день</h3><p>Время, распорядок и действия</p><span class="lock-label">Откроется позже</span></div><span class="card-arrow">⌑</span></article>
+        </div>
+      </section>
+
+      <section id="vocabularyView" class="view hidden">
+        <p class="eyebrow">ТВОЯ КОЛЛЕКЦИЯ СЛОВ</p><h1>Словарь</h1>
+        <p class="muted">Ищи слово на русском, английском или нидерландском.</p>
+        <input id="searchInput" class="search-input" type="search" placeholder="Например: hello, привет, hallo…">
+        <div id="wordList" class="word-list"></div>
+      </section>
+
+      <section id="practiceView" class="view hidden">
+        <p class="eyebrow">ЗАКРЕПЛЯЕМ ЗНАНИЯ</p><h1>Практика</h1>
+        <p class="muted">Короткие задания помогают активировать новые слова.</p>
+        <div class="practice-card"><span class="hero-tag">МИНИ-ТРЕНИРОВКА</span><h2>Как будет «спасибо»?</h2><div id="practiceOptions" class="options"></div><p id="practiceFeedback" class="feedback" aria-live="polite"></p><button id="nextQuestion" class="button" disabled>Следующий вопрос →</button></div>
+      </section>
+
+      <section id="progressView" class="view hidden">
+        <p class="eyebrow">ТВОИ УСПЕХИ</p><h1>Мой прогресс</h1>
+        <div class="stats-grid"><div class="stat-card"><span>Всего XP</span><strong id="progressXP">0</strong></div><div class="stat-card"><span>Изучено слов</span><strong id="knownCount">0</strong></div><div class="stat-card"><span>Завершено уроков</span><strong id="lessonCount">0</strong></div></div>
+        <div class="practice-card"><h2>Продолжай в своём темпе</h2><p class="muted">Твой прогресс сохраняется в этом браузере на устройстве.</p><button id="resetProgress" class="button button-outline">Сбросить прогресс</button></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="lessonModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="lessonTitle">
+    <div class="lesson-panel">
+      <button id="closeLesson" class="close-button" aria-label="Закрыть">×</button>
+      <div class="lesson-top"><span class="eyebrow">УРОК 1 · ЗНАКОМСТВО</span><span id="lessonStepLabel">1 / 5</span></div>
+      <div class="progress-track"><i id="lessonBar"></i></div>
+      <div id="lessonContent"></div>
+      <div class="lesson-actions"><button id="checkAnswer" class="button">Проверить</button><button id="continueLesson" class="button hidden">Продолжить →</button></div>
+      <p id="lessonFeedback" class="feedback" aria-live="polite"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
